@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "description": "Read Manga",
+        "createdAt": "2024-11-16T11:25:54.555984",
+        "updatedAt": "2024-11-16T12:57:22.483710",
+        "status": "done"
+    },
+    {
+        "id": 2,
+        "description": "wash the dishes",
+        "createdAt": "2024-11-16T11:57:10.506185",
+        "updatedAt": 0,
+        "status": "todo"
+    }
+]
