@@ -31,3 +31,22 @@ Each task includes:
    ```bash
    git clone https://github.com/your-username/task-manager-cli.git
    cd task-manager-cli
+2. Ensure python is installed
+    ```bash
+    python --version
+3. Run the program using python
+   ```bash
+   python cli.py <command> [arguments]
+   
+## Command Reference Table
+
+| Command      | Arguments                            | Description                                                                 | Example                                |
+|--------------|--------------------------------------|-----------------------------------------------------------------------------|----------------------------------------|
+| `add`        | `<description>`                     | Adds a new task with the given description.                                | `python cli.py add "Buy groceries"`   |
+| `update`     | `<id> <new_description>`            | Updates the description of a task by its ID.                               | `python cli.py update 1 "New desc"`   |
+| `delete`     | `<id>`                              | Deletes the task with the specified ID.                                    | `python cli.py delete 1`              |
+| `mark`       | `<id> <status>`                     | Updates the status of a task to `todo`, `in-progress`, or `done`.           | `python cli.py mark 1 done`           |
+| `list`       |                                      | Lists all tasks.                                                           | `python cli.py list`                  |
+| `list`       | `<status>`                          | Lists tasks filtered by the specified status (`todo`, `in-progress`, `done`).| `python cli.py list done`             |
+
+   
