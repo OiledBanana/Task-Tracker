@@ -49,6 +49,5 @@ Each task includes:
 | `list`       |                                      | Lists all tasks.                                                           | `python cli.py list`                  |
 | `list`       | `<status>`                          | Lists tasks filtered by the specified status (`todo`, `in-progress`, `done`).| `python cli.py list done`             |
 
-
-#Project url: https://github.com/OiledBanana/Task-Tracker
+https://roadmap.sh/projects/task-tracker
 
